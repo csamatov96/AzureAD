@@ -7,7 +7,7 @@ brew cask install powershell
 ### install Azure-CLI
 brew update && brew install azure-cli
 
-### install Terminal
+### install Terraform
 brew install terraform
 
 ### run
