@@ -7,17 +7,16 @@ brew cask install powershell
 ### H3 install Azure-CLI
 brew update && brew install azure-cli
 
-#### H4 install Terminal
+### H3 install Terminal
 brew install terraform
 
-##### H5 run az login 
+### H3 run -> az login 
+### H3 run -> az login --use-device-code 
 
-###### H6 run az login --use-device-code 
+### H3 run -> terraform init 
 
-run terraform init 
+### H3run -> terraform plan 
 
-run terraform plan 
+### H3run -> terraform apply 
 
-run terraform apply 
-
-run bash run.sh 
+### H3 run -> bash run.sh 
