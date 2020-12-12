@@ -10,13 +10,20 @@ brew update && brew install azure-cli
 ### install Terminal
 brew install terraform
 
-### run -> az login 
-### run -> az login --use-device-code 
+### run
+az login 
 
-### run -> terraform init 
+### run
+az login --use-device-code 
 
-### run -> terraform plan 
+### run
+terraform init 
 
-### run -> terraform apply 
+### run
+terraform plan 
 
-### run -> bash run.sh 
+### run
+terraform apply 
+
+### run
+bash run.sh 
