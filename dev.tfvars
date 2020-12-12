@@ -1,0 +1,8 @@
+username            = "jbond"
+password            = "Begin123!"
+display_name        = "James Bond"
+given_name          = "James"
+surname             = "Bond"
+job_title           = "seller"
+department          = "sales"
+street_address      = "1234"
