@@ -1,4 +1,4 @@
-# use the following command in your MAC to install a homebrew
+# For it to work, please use the following command in your MAC terminal to install a homebrew, if you don't have it installed 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 ## install PowerShell7
@@ -16,14 +16,14 @@ az login
 ### run
 az login --use-device-code 
 
-### run
+### run once
 terraform init 
 
-### run
-terraform plan 
+### run once (optional) 
+terraform plan  /  terraform plan --var-file=dev.tfvars 
 
-### run
+### run once 
 terraform apply 
 
-### run
+### run always 
 bash run.sh 
